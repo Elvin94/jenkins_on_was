@@ -1,4 +1,4 @@
-FROM s390x/websphere-liberty
+FROM store/ibmcorp/websphere-liberty
 WORKDIR  /opt/app
 COPY jenkins.war ./
 EXPOSE 8080
