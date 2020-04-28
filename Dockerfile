@@ -1,4 +1,4 @@
-FROM store/ibmcorp/websphere-liberty
+FROM websphere-liberty
 WORKDIR  /opt/app
 COPY jenkins.war ./
 EXPOSE 8080
